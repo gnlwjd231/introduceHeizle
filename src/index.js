@@ -11,7 +11,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Main></Main>
-    <Skills></Skills>
+    <div className='content'>
+      <Skills></Skills>
+    </div>
   </React.StrictMode>
 );
 

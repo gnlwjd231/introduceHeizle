@@ -1,3 +1,14 @@
 section.skills{
-    background: red;
+    padding: 40px 0;
+    > .wrapper{
+        >.container{
+            max-width: 1200px;
+            height: 7000px;
+            h2{
+                font-size: 28px;
+                font-weight: 600;
+                color: #fff;
+            }
+        }
+    }
 }

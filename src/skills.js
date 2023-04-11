@@ -5,7 +5,9 @@ function Main() {
     <section className="skills">
       <div className="wrapper">
         <div className="container">
-          my skill
+          <h2>
+            SKILLS
+          </h2>
         </div>
       </div>
     </section>

@@ -7,18 +7,18 @@ function Main() {
         <h1>Hello<br/> I'm a FE developer Heizle</h1>
         <nav>
           <ul>
-            <li>
-              <a href="">
+            <li class="active">
+              <a href="naver.com">
                 SKILLS
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="naver.com">
                 WORKS
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="naver.com">
                 CONTACTS
               </a>
             </li>

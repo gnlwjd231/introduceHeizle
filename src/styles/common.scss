@@ -9,7 +9,6 @@ div.wrapper{
     align-items: center;
     justify-content: center;
     height: inherit;
-    padding: 40px;
     box-sizing: border-box;
 }
 div.container{
@@ -17,4 +16,8 @@ div.container{
     height: inherit;
     position: relative;
     box-sizing: border-box;
+}
+
+div.content{
+    padding: 140px 40px;
 }

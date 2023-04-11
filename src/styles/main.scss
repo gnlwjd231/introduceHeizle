@@ -37,7 +37,8 @@ main{
                     a{
                         color: #738b95;
                     }
-                    &:hover{
+                    &:hover,
+                    &.active{
                         a{
                             color: #fff;
                         }
