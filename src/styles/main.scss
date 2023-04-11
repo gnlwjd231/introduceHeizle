@@ -1,0 +1,56 @@
+main{
+    height: 100vh;
+    overflow-x: hidden;
+    background: rgb(44,83,100);
+    background: radial-gradient(circle, rgba(44,83,100,1) 0%, rgba(32,58,67,1) 31%, rgba(15,32,39,1) 100%);
+    background-size: 200%;
+    background-position-x: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-sizing: border-box;
+        height: 100%;
+        h1{
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: #fff;
+        }
+        nav{
+            ul{
+                margin-bottom: 16px;
+                width: 100%;
+                text-align: right;
+                color: #738b95;
+                li{
+                    font-size: 16px;
+                    text-align: right;
+                    line-height: 1.5;
+                    a{
+                        color: #738b95;
+                    }
+                    &:hover{
+                        a{
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            h2{
+                font-size: 16px;
+                text-align: right;
+                color: #738b95;
+                font-weight: 600;
+                line-height: 1.5;
+            }
+        }
+    }
+}
