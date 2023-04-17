@@ -19,5 +19,26 @@ div.container{
 }
 
 div.content{
-    padding: 140px 40px;
+    padding: 40px;
+    width: calc( 100vw - 360px );
+    margin-left: 360px;
+    gap: 20px;
+    display: grid;
+}
+
+.header{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 10px;
+    h2{
+        font-size: 28px;
+        font-weight: 600;
+        color: #fff;
+    }
+    h3{
+        font-size: 18px;
+        font-weight: 600;
+        color: #ffffff90;
+    }
 }

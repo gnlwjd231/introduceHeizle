@@ -4,7 +4,7 @@ function Main() {
   return (
     <main>
       <div className="container">
-        <h1>Hello<br/> I'm a FE developer Heizle</h1>
+        <h1>I'm a FE developer. Heizle</h1>
         <nav>
           <ul>
             <li class="active">

@@ -5,6 +5,7 @@ import './styles/common.scss';
 import './index.scss';
 import Main from './main';
 import Skills from './skills';
+import Works from './works';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,6 +14,7 @@ root.render(
     <Main></Main>
     <div className='content'>
       <Skills></Skills>
+      <Works></Works>
     </div>
   </React.StrictMode>
 );
